@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #dddddd; /* Color rojo fresa */
+}
+
+/* Resto del código CSS se mantiene igual */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+.brand {
+    display: inline-block;
+}
+
+.brand h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.purchase-options {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.purchase-options h3 {
+    color: #333;
+}
+
+.purchase-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.purchase-options ul li {
+    margin-bottom: 10px;
+}
+
+.purchase-options button {
+    background-color: #363636;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-options button:hover {
+    background-color: #ff0000;
+}
+
+.more-info {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.more-info h2 {
+    color: #333;
+}
+
+.more-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.more-info ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
